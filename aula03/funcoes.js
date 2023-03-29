@@ -22,3 +22,9 @@ function soma (n1,n2) {
 }
 console.log(soma('13', 17))
 console.log(soma(13, 17))
+
+const arrowFunction = () => {
+    console.log('Isso é uma função anônima!!')
+}
+
+arrowFunction()
