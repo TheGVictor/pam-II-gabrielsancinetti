@@ -5,6 +5,7 @@ import {
   BodyMain,
   Title,
   Subtitle,
+  SignInArea,
   InfoAccount,
   InputEmail,
   InputPassword,
@@ -16,15 +17,17 @@ const Login = () => {
   return (
     
     <BodyMain>
-      <Title>Welcome background!</Title>
+      <Title>Welcome back!</Title>
       <Subtitle>We're so excited to see you again!</Subtitle>
 
+      <SignInArea>
       <InfoAccount>Account Information</InfoAccount>
-      <InputEmail placeholder = {"Email or Phone Number"}></InputEmail>
-      <InputPassword placeholder = {"Password"} secureTextEntry={true}></InputPassword>
-      <PasswordForgot>Forgot your password?</PasswordForgot>
+      <InputEmail placeholder = {"Email or Phone Number"}  placeholderTextColor = "#FFF"></InputEmail>
+      <InputPassword placeholder = {"Password"}  placeholderTextColor = "#FFF" secureTextEntry={true}></InputPassword>
+      <PasswordForgot>Forgot your password??</PasswordForgot>
+      </SignInArea>
 
-      <SignInButton value = {'Log In'} />
+      <SignInButton title = "Login" />
     </BodyMain>
     
   );
