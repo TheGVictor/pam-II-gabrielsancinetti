@@ -4,7 +4,6 @@ import styled from 'styled-components/native';
 
 export const BodyMain = styled(ScrollView)`
     background-color: #35383F
-
 `
 
 export const Title = styled(Text)`
@@ -27,7 +26,7 @@ export const Subtitle = styled(Text)`
 
 export const SignInArea = styled(View)`
     margin-top: 30px
-    width: 95%
+    width: 88%
     align-self: center
 `
 
@@ -37,15 +36,34 @@ export const InfoAccount = styled(Text)`
     font-weight: bold
     color: #B8B9BE
     text-transform: uppercase
+    margin-bottom: 10px
 `
 
 export const InputEmail = styled(TextInput)`
     background-color: #212226
+    padding: 13px
+    margin-bottom: 10px
+    font-weight: bold
+    color: #FFF
 `
 
-export const InputPassword = styled(TextInput)``
+export const InputPassword = styled(TextInput)`
+    background-color: #212226
+    height: 40px
+    padding: 13px
+    font-weight: bold
+    color: #FFF
+`
 
-export const PasswordForgot = styled(Text)``
+export const PasswordForgot = styled(Text)`
+    margin-top: 10px
+    margin-bottom: 20px
+    font-size: 12px
+    color: #2984B1
+    font-weight: bold
+`
 
-export const SignInButton = styled(Button)``
+export const SignInButton = styled(Button)`
+    margin-top: 10px
+`
 
